@@ -6,7 +6,7 @@ require 'sinatra/base'
 
 class MyApp < Sinatra::Base
   get '/' do
-    "jspy-conf #{Time.now} at the server!"
+    "Merhaba Dünya! saat: #{Time.now}"
   end
   
   run! if app_file == $0
