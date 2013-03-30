@@ -27,7 +27,7 @@ PLATFORMS
 
 DEPENDENCIES
   rack-test
-  rdiscount
+  rdiscount (= 2.0.7.1)
   sass
   shotgun
   sinatra

@@ -13,4 +13,4 @@ end
 
 gem 'sinatra'
 gem 'sass'
-gem 'rdiscount', "2.0.7.1"
+gem 'rdiscount'
