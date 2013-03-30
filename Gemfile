@@ -12,5 +12,5 @@ group :test do
 end
 
 gem 'sinatra'
-gem 'rdiscount', '2.0.7.1' # heroku
-# gem 'sass'
+gem 'rdiscount'
+gem 'sass'
