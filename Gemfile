@@ -13,4 +13,4 @@ end
 
 gem 'sinatra'
 gem 'sass'
-gem 'rdiscount'
+# gem 'rdiscount'
