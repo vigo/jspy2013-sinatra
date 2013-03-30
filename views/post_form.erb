@@ -1,0 +1,10 @@
+<form action="?" method="post" accept-charset="utf-8">
+<p>
+  <strong>Kullanıcı adı girin</strong><br/>
+  <input type="test" name="username" value=""/>
+</p>
+<p><input type="submit" value="Gönder &rarr;"/></p>
+<% if @username %>
+  <p>Göndermiş olduğunuz kullanıcı adı: <strong><%= h @username %></strong></p>
+<% end %>
+</form>

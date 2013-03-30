@@ -1,0 +1,17 @@
+$color: #00f
+$h1_color: adjust-hue($color, 270deg)
+$fonts: Helvetica, Arial
+body
+  background-color: adjust-hue($color, 20deg)
+  color: darken($h1_color, 20%)
+  font-family: $fonts
+  margin: 40px
+  h1
+    color: $h1_color
+  pre
+    border: 1px solid darken($color, 20)
+    padding: 20px
+    background-color: darken($color, 24)
+    code
+      line-height: 1.5em
+      color: darken($h1_color, 10%)

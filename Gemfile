@@ -6,5 +6,10 @@ group :development do
   gem 'shotgun'
 end
 
+group :test do
+  gem 'rack-test'
+end
 
 gem 'sinatra'
+gem 'rdiscount'
+gem 'sass'
