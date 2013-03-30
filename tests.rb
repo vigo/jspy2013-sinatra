@@ -1,6 +1,9 @@
 # encoding: utf-8
 require 'rubygems'
-require 'bundler/setup'
+require 'bundler'
+
+Bundler.require
+# require 'bundler/setup'
 require 'test/unit'
 require 'rack/test'
 

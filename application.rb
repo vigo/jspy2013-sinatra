@@ -1,8 +1,10 @@
 # encoding: utf-8
 
 require 'rubygems'
-require 'bundler/setup'
-require 'sinatra/base'
+require 'bundler'
+Bundler.require
+# require 'bundler/setup'
+# require 'sinatra/base'
 require 'json'
 
 class MyApp < Sinatra::Base

@@ -8,8 +8,6 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rdiscount (2.0.7.1)
-    sass (3.2.7)
     shotgun (0.9)
       rack (>= 1.0)
     sinatra (1.4.1)
@@ -27,8 +25,6 @@ PLATFORMS
 
 DEPENDENCIES
   rack-test
-  rdiscount
-  sass
   shotgun
   sinatra
   thin
