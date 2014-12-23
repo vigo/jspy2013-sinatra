@@ -1,6 +1,6 @@
 # encoding: utf-8
 source "https://rubygems.org"
-ruby "1.9.3"
+ruby "2.1.5"
 
 group :development do
   gem 'thin'
@@ -13,5 +13,5 @@ end
 
 gem 'sinatra'
 gem 'sass'
-# gem 'rdiscount', '2.0.7.1'
 gem 'rdiscount'
+gem 'rake'

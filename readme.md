@@ -1,6 +1,6 @@
 ## Gerekenler
 
-* `ruby 1.9.3-p194`
+* `ruby 2.1.5`
 * `git`
 * [Heroku][heroku] hesabı.
 * [Heroku Toolbelt][toolbelt]
@@ -10,8 +10,8 @@
 ```bash
 bundle install --path vendor/bundle  # ilgili ruby gem'leri kuralım
 
-bundle exec shotgun  # sunucuyu çalıştırmak için... ya da
-bundle exec rackup   # bu şekilde
+bundle exec rake run:shotgun # sunucuyu shotgun ile çalıştırmak için... ya da
+bundle exec rake run:rackup  # rackup ile çalıştırmak için
 ```
 
 
