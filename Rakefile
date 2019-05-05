@@ -8,6 +8,6 @@ namespace :run do
   
   desc "Local sunucu (Rackup)"
   task :rackup do
-    system "rackup"
+    system "rackup -o 0.0.0.0"
   end
 end
