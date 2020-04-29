@@ -1,8 +1,6 @@
 # encoding: utf-8
 source "https://rubygems.org"
 
-ruby "2.6.3"
-
 group :development do
   gem 'thin'
   gem 'shotgun'
@@ -12,7 +10,7 @@ group :test do
   gem 'rack-test'
 end
 
-gem 'sinatra', '~> 1.4.8'
+gem 'sinatra'
 gem 'sass'
 gem 'rdiscount'
 gem 'rake'
