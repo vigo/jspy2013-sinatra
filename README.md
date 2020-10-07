@@ -14,6 +14,11 @@ bundle exec rake run:shotgun # sunucuyu shotgun ile çalıştırmak için... ya 
 bundle exec rake run:rackup  # rackup ile çalıştırmak için
 ```
 
+---
+
+## Lisans
+
+Bu proje MIT lisansı kullanmaktadır.
 
 [heroku]:       http://heroku.com
 [toolbelt]:     https://toolbelt.heroku.com/
